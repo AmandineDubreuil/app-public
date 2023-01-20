@@ -1,0 +1,339 @@
+@font-face {
+  font-family: "poppins";
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+}
+.orange {
+  color: rgb(255, 127, 39);
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: rgb(255, 193, 7);
+}
+.green {
+  color: green;
+}
+.white {
+  color: white;
+}
+.blue {
+  color: blue;
+}
+.aqua {
+  color: aqua;
+}
+.pink {
+  color: rgb(233, 30, 99);
+}
+.grey {
+  color: grey;
+}
+/* *********************** 
+HEADER
+************************ */
+header img{
+    width: 100%;
+}
+header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+#download p:first-child {
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+#download button {
+  border: none;
+  background-color: rgb(76, 175, 80);
+  padding: 0.5rem 0;
+  color: #fff;
+  width: 100%;
+}
+#takeTour {
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(50%);
+  padding: 0.5rem;
+}
+
+#download p {
+  display: none;
+  padding: 0;
+}
+
+/* *********************** 
+MAIN Section app
+************************ */
+#app h1 {
+  padding: 3rem 0 1rem;
+  font-size: 3rem;
+}
+#app h3 {
+  padding: 0 0 1rem;
+  font-size: 2rem;
+  color: rgb(76, 175, 80);
+}
+#appText {
+  padding: 1rem;
+}
+#app span {
+  font-size: 1.5rem;
+}
+#app p {
+  padding-bottom: 1rem;
+}
+#appImg img{
+    width: 100%;
+}
+#app .fa-android {
+  color: rgb(76, 175, 80);
+}
+#app .fa-windows {
+  color: rgb(0, 128, 255);
+}
+#app button {
+  border: none;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+#appImg {
+  margin: 1rem;
+}
+/* *********************** 
+MAIN Section clarity
+************************ */
+#clarity {
+  padding: 3rem 1rem;
+}
+#clarityImg img{
+    width: 100%;
+}
+
+#clarityImg {
+  display: none;
+}
+#clarity h2 {
+  padding: 3rem 0 1rem;
+  font-size: 3rem;
+}
+#clarity h3 {
+  padding: 0 0 1rem;
+  font-size: 2rem;
+  color: rgb(244, 67, 54);
+}
+#clarity span {
+  font-size: 1.5rem;
+}
+/* *********************** 
+MAIN Section features
+************************ */
+#features {
+  background-color: rgb(97, 97, 97);
+  color: white;
+  padding-bottom: 3rem;
+}
+#features h2 {
+  padding: 3rem 0 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+#features p {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.ligne {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.ligne i {
+  font-size: 3rem;
+}
+/* *********************** 
+MAIN Section pricing
+************************ */
+#pricing {
+  margin: 1rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+#pricing h2 {
+  padding: 3rem 0 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.cardPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.8rem;
+  margin: 0.8rem 0;
+  box-shadow: 10px 8px 5px -7px rgba(92, 88, 88, 0.58);
+  -webkit-box-shadow: 10px 8px 5px -7px rgba(92, 88, 88, 0.58);
+  -moz-box-shadow: 10px 8px 5px -7px rgba(92, 88, 88, 0.58);
+}
+
+.headerPrice {
+  color: #fff;
+  background-color: rgb(97, 97, 97);
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.boldPrice {
+  font-weight: 600;
+}
+
+.price p {
+  text-align: center;
+  margin: 0.5rem 0;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #616161;
+}
+
+.cardPrice p {
+  margin: 0;
+  max-height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.05rem solid #d4d4d4;
+}
+
+.footerPrice {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footerPrice button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+}
+
+#proPrice {
+  background-color: #f54337;
+}
+
+/* *********************** 
+FOOTER
+************************ */
+footer {
+  padding: 3rem;
+  background-color: #d4d4d4;
+  color: #000;
+  text-align: center;
+}
+
+/* *********************** 
+**************************
+RESPONSIVE DESKTOP
+**************************
+************************ */
+
+@media screen and (min-width: 576px) {
+  /* *********************** 
+RESPONSIVE Header
+************************ */
+
+  #download {
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0.5rem;
+    width: 40%;
+  }
+  #download p {
+    display: block;
+    padding: 0.7rem;
+  }
+  #download button {
+    position: relative;
+    border: none;
+  }
+  #takeTour {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: fit-content;
+    height: fit-content;
+  }
+
+/* *********************** 
+RESPONSIVE Main app
+************************ */
+#app {
+  display: flex;
+}
+#flexApp {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#appText {
+  width: 60%;
+}
+#app h1 {
+  padding-top: 2rem;
+}
+
+#app button {
+  border: none;
+  padding: 0.5rem;
+  margin: 1rem 0 1rem;
+  background-color: rgb(220, 220, 220);
+}
+
+#appImg {
+  width: 30%;
+}
+
+/* *********************** 
+RESPONSIVE Main clarity
+************************ */
+#clarity{
+    display: flex;
+}
+#clarityImg {
+    display: block;
+    width: 100%;
+}
+
+/* *********************** 
+RESPONSIVE Main pricing
+************************ */
+.cardsPricing{
+    display: flex;
+    justify-content: space-around;
+}
+.cardPrice{
+    width: 48%;
+}
+
+}
